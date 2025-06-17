@@ -13,11 +13,14 @@ import net.runelite.api.widgets.Widget;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
+import net.runelite.api.events.GameStateChanged;
 import net.runelite.client.events.GameStateChanged;
 import net.runelite.client.events.ProfileChanged;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.plugins.Plugin;
+import net.runelite.client.plugins.spellbook.SpellbookConfig;
+
 
 @Slf4j
 public class SpellbookSetupsPlugin extends Plugin
